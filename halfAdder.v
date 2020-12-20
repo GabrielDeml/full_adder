@@ -1,6 +1,6 @@
 module halfAdder(
-    input in1, in2, carryIn;
-    output sum, carryOut;
+    input in1, in2, carryIn,
+    output sum, carryOut
 );
 
 assign num1 = in1 ^ in2;
