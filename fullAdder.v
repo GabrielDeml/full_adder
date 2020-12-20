@@ -4,7 +4,7 @@ module fullAdder(
     output num1, num2, num3, num4, num5, num6, num7, num8;
 );
 
-assign num1 = in1 ^ in2;
+assign firstAdd = ;
 assign carry1 = in1 & in2;
 assign num2 = in3 ^ carry1;
 assign carry2 = in3 & carry1;
